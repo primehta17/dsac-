@@ -27,6 +27,8 @@ int main(){ //main function
    cout << "Enter your data" << endl;
    cin >> data;
     cout << "Enter your data " << data;
+
+
     return 0;//return integer
 
 }

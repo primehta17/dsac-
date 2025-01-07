@@ -11,7 +11,7 @@
 // charater(char) => 1 byte 'a' ,'b','M etc //ASCII value stores like A=> 65 a=> 97  
 // float(float)   => 4 byte 1.0 ,100.8
 // boolean(bool)  => 1 byte e.g true =>1,false=>0 
-// double(double) => 8 byte 1.11
+// double(double) => 8 byte 1.11//more precise
 
 
 // Type-casting=>Converting data from one type to another
@@ -21,11 +21,6 @@
 // 2) casting [explicit]//manually by programmer
 //big to small like double to integer (8 byte to 4 byte)
 
-//100.999 never by 101 it only 100 in any conditions
+//100.999 never by 101 it only 100 in any conditions 
 
 
-//operators 
-
-// 1) Arithmetic (+,-,*,/,%)
-// 2) Relational (==,!=)
-// 3) Logical (&&,||)
