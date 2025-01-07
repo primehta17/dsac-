@@ -43,6 +43,12 @@ class Teacher{
         this->salary = orgObj.salary;
     }
 
+   //DESTRUCTOR (starts with tild~)
+
+   ~Teacher(){
+        cout << "Hi i delete everything" << endl;
+        delete ptr;
+    }
     //methods
     void changeDept(string newDept){
         dept = newDept;
