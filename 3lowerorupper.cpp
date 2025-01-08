@@ -5,13 +5,17 @@ int main(){
 
     cout << "Enter charater\n";
     cin >> ch;
-    if(ch>='a'&&ch<='z'){
+//ASCII American Standard Code for Information Interchange
+    //a=>97 B=>98 - z=>  
+    //A=>65 B=>66 - Z=>90
+
+    if(ch >= 'a' && ch <= 'z'){ //A-Z
         cout << "lowercase\n";
     }else{
         cout << "uppercase\n";
     }
-//implicit type conversion
-     if(ch>=65 && ch<=90){
+//implicit type conversion //that is why char comparsion is possible
+     if(ch >= 65 && ch <= 90){
         cout << "uppercase\n";
     }else{
         cout << "lowercase\n";

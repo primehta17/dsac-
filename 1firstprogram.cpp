@@ -37,3 +37,5 @@ int main(){ //main function
 //only excutable file will understable by computer
 
 // line COMMENT
+
+//g++ -std=c++11 target.cpp && ./a.out

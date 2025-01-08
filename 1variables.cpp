@@ -1,5 +1,8 @@
 //a=25 a is variable it is container where we stare our variable
 // we can store single quote a chararter and double for strings
+//use camelCase
+//always use matching name
+
 
 // we can store any datatypes 
 // we can use idetifiers for variables name

@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-//function definations
+//function definition
 void printHello(){ //void it is not returning anything only printing Hello
     cout << "Hello\n";
 }

@@ -12,6 +12,9 @@ int main(){
     // }
     // cout << endl;
 
+
+//outer loop how many lines
+//inner what to print every lines
     for(int i=1;i<=num;i++){
         for(int j=1;j<=num;j++){
             cout << " " << j;
