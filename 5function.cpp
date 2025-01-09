@@ -1,4 +1,4 @@
-//if we want to avoid reduncany(unnecessary repeation)
+//if we want to avoid reduncany(unnecessary repeation) create function
 
 #include <iostream>
 using namespace std;
@@ -18,7 +18,7 @@ int printSum(int a,int b){ //any data-types
     return s;
 }
 
-int minNum(int i,int j){//parameters copy of arguments
+int minNum(int i,int j){//parameters (copy of arguments)
     if(i<j){
         return i;
     }else{
@@ -29,6 +29,7 @@ int minNum(int i,int j){//parameters copy of arguments
 int main(){
 //function call / invoke
 printHello();
+printHello();//many times
 cout << "print val " << printValue() <<endl;
 int val=printValue();
 cout << "val is " << val << endl;

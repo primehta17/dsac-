@@ -106,4 +106,30 @@ function unique(array){
 }
 console.log(unique(array1))
 
+function digitsum(n){
+  let sum=0;
+    while(n>0){
+      let s = n%10;//for remaider to get last digit
+      n = n/10;//for removing last digit
+      sum += s;//sum the last digit
+    }
+    return "sum of 123 => " + Math.floor(sum);
+  } 
+console.log(digitsum(123))
+
+function factorial(n){
+  let fact= 1;
+  for(let i=1;i<=n;i++){
+    fact*=i;
+  }
+  return fact;
+}
+console.log(factorial(5))
+function binomial(a,b){
+let minus= a-b;
+  let bi = factorial(a)/(factorial(b)*factorial(minus));
+  return bi;
+}
+console.log(binomial(6, 3))
+
 

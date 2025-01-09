@@ -2,7 +2,9 @@
 //waf to swap the max & min number of an array.
 //waf to print all the unique values in an array
 //waf to print intersection of 2 arrays.
-
+//waf to check if a number is primr or not
+//waf to print all prime numbers from 2 to N
+//waf to print nth fibonacci
 //figure out how to find if a number is power of 2  without any loop
 //by bits also solve this
 
