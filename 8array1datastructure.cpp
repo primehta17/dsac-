@@ -15,6 +15,7 @@
 //-> contiguous in memory + linear 
 //if first is 4 bytes with place of 100 
 //then is 104 with 4 bytes and continue
+//if we know first array address (starting address) then it is easy to another indices(index)
 //syntax int marks[5]; int is datatype, marks is variabl, 5 is size 
 //each block save one-one integer in memory
 //only access the 0 to size-n // before and after that give error not the part 
@@ -39,7 +40,7 @@ int main(){
 
 //to get the size 4*5like above
      cout << sizeof(marks) << endl; //20 total array size 4 bytes AND 5 indices
-     cout << sizeof(marks)/sizeof(int) <<endl; //5 divided by sizeof(int) //size of array 
+     cout << sizeof(marks)/sizeof(int) <<endl; //5 divided by sizeof(int)(indices is int) //size of array 
     //by using loop we can access the values
         int size=5;
         for(int i=0;i<size;i++){
@@ -47,9 +48,10 @@ int main(){
         }
 
         int prices[size];
+        ////enter input
         for(int j=0;j<size;j++){
             cout << "Enter array" << endl;
-            cin >> prices[j];
+            cin >> prices[j]; // 23,44,5,66,12
         }
 
         for(int k=0;k<size;k++){
