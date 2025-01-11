@@ -41,7 +41,7 @@ int main(){
 //O(n^2) & O(n^3) //big O of n
    //Merge Sort
    //Selection Sort
-   // Bubble Sort
+   // Bubble Sort(0logn)
    //
    
    for(int i=0;i<n-1;i++){

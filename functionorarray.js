@@ -85,17 +85,6 @@ function reverseArr(arr){
 }
 console.log(reverseArr(arr));
 
-//[5,4,4,2,1,2,1,5] => 4 //leetcode =>136
-let single=[5,5,4,4,3,2,1,2,1];
-    function singleNum(array){
-    let answer ='';
-        for(let i=0;i<array.length;i++){//bitwise xor
-            answer ^= array[i]; //it cancel out the duplicate
-            // console.log("answer",answer);
-        }
-    return answer;
-    }
-console.log(singleNum(single))
 
 //another try
 console.log("Another try");

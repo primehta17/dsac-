@@ -13,3 +13,7 @@
 //wap to reverse an array;//in copy as well in original array reverse it//2pointers approach
 //linearsearch
 
+
+//linearsearch in vector
+//reverse in vector
+
