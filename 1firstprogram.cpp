@@ -39,4 +39,4 @@ int main(){ //main function
 
 // line COMMENT
 
-//g++ -std=c++11 9reversearray2pointer.cpp && ./a.out
+//g++ -std=c++11 productarray.cpp && ./a.out
