@@ -23,7 +23,6 @@ int sumdigits(int num){
     digitSum += lastDig;
    }
    return digitSum;
-   
 }
 ///rough draft of binomal coeffiecient
 
