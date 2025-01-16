@@ -33,7 +33,7 @@ public:
 
     void getSecretPassword()
     {
-        cout<<"The secret password of employee is "<<this->secretPassword;
+        cout<<"The secret password of employee is "<< this->secretPassword;
     }
 
 private:
