@@ -42,7 +42,7 @@ int main(){
             cout << "number is odd\n";
         }
         //by ternery operator
-        (number%2==0)?cout<<"even\n":cout<<"odd\n";
+        (number%2==0) ? cout << "even\n" :cout <<"odd\n";
 
         cout << (23>=0 ? "positive" : "negative") << endl;
         return 0;

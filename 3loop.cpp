@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    // while is used when we want to use if condition so many times 
+// while is used when we want to use if condition so many times 
 //loop is run till this condition is true
 //3 steps
 //intialize

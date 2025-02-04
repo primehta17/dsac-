@@ -50,12 +50,12 @@ cout << "++inc => " << preinc << endl;
 int dec1 = 1;
 
 //post decrement operator(a--)
-int postdec = dec1--;
-cout << "dec-- =>"<< postdec << endl;
+int postdec = dec1--;//decreament and then update in next line //phle store ho memeory pe phir decrement krna 
+cout << "dec-- => "<< postdec << endl;
 
 int dec2 = 1;
-int predec = --dec2;
-cout << "--dec =>" << predec << endl;
+int predec = --dec2;//update in same line and then kaam karo // phle decrement then store in variable
+cout << "--dec => " << predec << endl;
 
      return 0;
 }

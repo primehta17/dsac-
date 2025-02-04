@@ -24,7 +24,7 @@ public:
         this->salary = s;
         this->secretPassword = sp;
     }
-
+ˀ
     void printDetails()
     {
         cout << "The name of our first employee is " << this->name << " and his salary is " 
@@ -33,11 +33,11 @@ public:
 
     void getSecretPassword()
     {
-        cout<<"The secret password of employee is "<< this->secretPassword;
+        cout << "The secret password of employee is "<< this->secretPassword;
     }
 
-private:
-    int secretPassword;
+    private:
+        int secretPassword;
 };
 
 

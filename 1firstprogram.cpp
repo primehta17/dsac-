@@ -34,7 +34,7 @@ int main(){ //main function
 
 }
 
-//first comiler =>code to compiler//to see any error is coming
+//first compiler =>code to compiler//to see any error is coming
 //only excutable file will understable by computer
 
 // line COMMENT
