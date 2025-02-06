@@ -12,7 +12,7 @@ for(let i=1;i<=12;i++){
     console.log(program(i))
 }
 
-function foo(num){
+function digitpower(num){
     let ans=0;pow=1;
     while(num>0){
          let lastDigit = num %10;
@@ -22,7 +22,7 @@ function foo(num){
     }
    return ans;
 }
-console.log(foo(111));
+console.log(digitpower(111));
 
 function bubblesort(arr){
     let temp =[];

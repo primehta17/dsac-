@@ -1,7 +1,7 @@
 //BOILER PLATE CODE
 //apna college - sharda kapra
 
-#include <iostream> //we have to include isstream for excute cout
+#include <iostream>//(preprocessor directive) //we have to include isstream for excute cout
 using namespace std; //use std
 // we can use also std::cout//standard
 int main(){ //main function

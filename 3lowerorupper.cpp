@@ -6,7 +6,7 @@ int main(){
     cout << "Enter charater\n";
     cin >> ch;
 //ASCII American Standard Code for Information Interchange
-    //a=>97 B=>98 - z=>  
+    //a=>97 b=>98 - z=>  
     //A=>65 B=>66 - Z=>90
 
     if(ch >= 'a' && ch <= 'z'){ //A-Z

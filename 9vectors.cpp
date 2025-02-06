@@ -9,23 +9,23 @@
 // => it resize (it changes size)
 
 
-// Vector Syntax
+// Vector Syntax(initialize)
 
 // vector<int> vec;
 // vector<int> vec ={1,2,3}
-// vector<int> vec(3,0)
-// vector<int> vec2(vec1)
+// vector<int> vec(3,0) // 3 times 0 //dyamic programming-tabulation DP[][]
+// vector<int> vec2(vec1); it copies vec1 values
 
 // for include this we use #include <bits/c++.h> or #include <vector> from std library
 
 // Vector Functions (for different operations) (O(1 time complexity)
 // => size & capacity //length & spaces in memory
-// => push_back //it added in last
+// => push_back //it added in last(same type)
 // => pop_back //it deleted in last
 // => front //front value
 // => back //back value
 // => at or []//value at that index
-// => emplace_back //different emplacepair push
+// => emplace_back //different emplacepair(any type) push
 
 //costly function O(n) complexity //size changes but capacity is same
 // => erase //it erase at particular point
