@@ -28,8 +28,78 @@ function kadane(arr){
 }
 console.log(kadane(a))
 
-//169 majority element(moore's voting algorithm)
+//pairsum 0(n)
+function pairsums(){
+    let arr= [3,70,11,15,7,2],target =10,start=0,end=arr.length-1;
+    let answer=[];
+   while(start<end){
+    let pairsum= arr[start]+arr[end];
+   if(pairsum<target){
+       start++;
+   }else if(pairsum>target){
+       end++;
+   }else{
+       answer.push(start);answer.push(end);
+       return answer;
+   }
+};
+}
+console.log(pairsums())
 
+
+
+
+//169 majority element(moore's voting algorithm)
+function majority(){
+    let arr=[1,2,2,1,1,1];
+ 
+    let all = Math.floor(arr.length/2);
+     for(let i=0;i<arr.length;i++){
+         let count=0;
+      for(let j=0;j<arr.length;j++){
+          if(arr[i]==arr[j]){
+             count++;
+          }
+      }if(count>all){
+          return arr[i]
+      }
+     }return -1;
+ }
+ console.log(majority())
+
+ function majorityoptimal(){
+    let arr=[1,2,2,1,1,1];
+  let sorted=  arr.sort((a,b)=>(a-b));ans=arr[0];
+ 
+    let all = Math.floor(arr.length/2),count=1;
+     for(let i=0;i<arr.length;i++){
+       if(arr[i]==arr[i-1]){
+           count++;
+       }else{
+           count=1;ans=arr[i];
+       }if(count>all){
+         return ans;
+     };
+     }
+ }
+ console.log(majorityoptimal())
+
+ function mooremajorityvoting(){
+    let arr=[1,2,2,1,1,1,2,2,2];let count=0;let ans=0;
+  for(let i=0;i<arr.length;i++){
+     if(count==0){
+         ans= arr[i];
+     }
+     if(ans==arr[i]){
+         count++
+     }else{
+         count--
+     }
+  }
+  return ans
+ }
+ console.log(mooremajorityvoting())
+ 
 
 //pow(x,n)
 /**
