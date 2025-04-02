@@ -1,9 +1,10 @@
 //Iterators (derefereing * like pointers)
 //=>begin()
+//=>end (vec.length + just one plus)//0
 
 //Reverse Iterators
-//=>rbegin()=>last index
-//rend() =>first+1 index
+//=>rbegin()=>last index 
+//rend() =>first-1 index //just one minus to first(0) index
 #include <iostream>
 using namespace std;
 
